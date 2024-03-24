@@ -1,3 +1,4 @@
+import Portfolio from "../portfolio/Portfolio";
 import "./hero.scss";
 import {motion} from "framer-motion";
 
@@ -46,8 +47,10 @@ const Hero = () => {
                     <motion.h2 variants={textVariants}>GURKIRAT SINGH</motion.h2>
                     <motion.h1 variants={textVariants}>Web Developer</motion.h1>
                     <motion.div variants={textVariants} className="buttons">
-                        <motion.button variants={textVariants}>See the Latest Works</motion.button>
-                        <motion.button variants={textVariants}>Contact Me</motion.button>
+                        <form method="get" action="#Portfolio">
+                        <motion.button type="submit" variants={textVariants}>See the Latest Works</motion.button></form>
+                        <form method="get" action="#Contact">
+                        <motion.button variants={textVariants}>Contact Me</motion.button></form>
                     </motion.div>
                     <motion.img variants={textVariants}  animate="scrollbutton" src="/scroll.png" alt="" />
                 </motion.div>
