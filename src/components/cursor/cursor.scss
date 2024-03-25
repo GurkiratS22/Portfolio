@@ -7,6 +7,7 @@
     border: 1px solid white;
     position: fixed;
     z-index: 999;
+    pointer-events: none;
 
     @include mobile{
         display: none;

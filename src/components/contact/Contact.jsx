@@ -51,15 +51,15 @@ const Contact = () => {
             <motion.h1>Let's work together</motion.h1>
             <motion.div className="item" variants={variants}>
                 <h2>Mail</h2>
-                <span>hello@react.dev</span>
+                <motion.span whileHover={{color:"orange"}}><a href="mailto:contact@gurkiratsingh.dev">contact@gurkiratsingh.dev</a></motion.span>
             </motion.div>
             <motion.div className="item" variants={variants}>
                 <h2>Address</h2>
-                <span>Hello street New York</span>
+                <motion.span whileHover={{color:"orange"}}>Surrey, BC, Canada</motion.span>
             </motion.div>
             <motion.div className="item" variants={variants}>
                 <h2>Phone</h2>
-                <span>+ 1234567890</span>
+                <motion.span whileHover={{color:"orange"}}><a href="tel:+17788822248">+1 (778) 882-2248</a></motion.span>
             </motion.div>
         </motion.div>
         <div className="formContainer">
@@ -73,7 +73,7 @@ const Contact = () => {
                 <input type="text" required placeholder="Name" name="from_name" />
                 <input type="email" required placeholder="Email" name="from_email" />
                 <textarea rows={8} placeholder="Message" name="message" />
-                <button>Submit</button>
+                <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}>Submit</motion.button>
                 {error && "Error"}
                 {success && "Success"}
             </motion.form>

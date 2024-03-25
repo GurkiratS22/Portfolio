@@ -14,10 +14,8 @@ const Navbar = () => {
              transition={{ duration: 0.5 }}
              >Gurkirat Singh | Portfolio</motion.span>
             <div className="social">
-                <a href="#"><img src="./facebook.png" alt="" /></a>
-                <a href="#"><img src="./instagram.png" alt="" /></a>
-                <a href="#"><img src="./youtube.png" alt="" /></a>
-                <a href="#"><img src="./dribbble.png" alt="" /></a>
+                <motion.a whileHover={{scale:1.1}} whileTap={{scale:0.95}} href="https://www.linkedin.com/in/gurkiratsingh22/"><img src="./linkedin.png" alt="" /></motion.a>
+                <motion.a whileHover={{scale:1.1}} whileTap={{scale:0.95}} href="https://github.com/GurkiratS22"><img src="./github.png" alt="" /></motion.a>
             </div>
         </div>
     </div>

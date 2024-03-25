@@ -19,7 +19,7 @@ const Cursor = () => {
         }
     }, []);
 
-    return <motion.div className="cursor" animate={{x: position.x, y: position.y}}></motion.div>;
+    return <motion.div className="cursor" animate={{x: position.x - 18, y: position.y - 14}}></motion.div>;
 };
 
 export default Cursor

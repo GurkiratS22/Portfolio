@@ -43,32 +43,32 @@ const Services = () => {
                 <h1>
                     <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
                 </h1>
-                <button>WHAT WE DO?</button>
+                <motion.button  whileHover={{scale:1.1}} whileTap={{scale:0.95}} >WHAT I DO?</motion.button>
             </div>
         </motion.div>
         <motion.div className="listContainer">
-            <motion.div className="box" whileHover={{background: "lightgray", color:"black"}}>
+            <motion.div className="box" whileHover={ window.innerWidth<= 738 ? {} : {background: "lightgray", color:"black"}}>
                 <h2>Branding</h2>
                 <p>
                     Something..
                 </p>
                 <button>Go</button>
             </motion.div>
-            <motion.div className="box" whileHover={{background: "lightgray", color:"black"}}>
+            <motion.div className="box" whileHover={ window.innerWidth<= 738 ? {} : {background: "lightgray", color:"black"}}>
                 <h2>Branding</h2>
                 <p>
                     Something..
                 </p>
                 <button>Go</button>
             </motion.div>
-            <motion.div className="box" whileHover={{background: "lightgray", color:"black"}}>
+            <motion.div className="box" whileHover={ window.innerWidth<= 738 ? {} : {background: "lightgray", color:"black"}}>
                 <h2>Branding</h2>
                 <p>
                     Something..
                 </p>
                 <button>Go</button>
             </motion.div>
-            <motion.div className="box" whileHover={{background: "lightgray", color:"black"}}>
+            <motion.div className="box" whileHover={ window.innerWidth<= 738 ? {} : {background: "lightgray", color:"black"}}>
                 <h2>Branding</h2>
                 <p>
                     Something..

@@ -49,7 +49,7 @@ const Single = ({item}) => {
                 <motion.div className="textContainer" style={{y}}>
                     <h2>{item.title}</h2>
                     <p>{item.desc}</p>
-                    <button>See Demo</button>
+                    <motion.button whileHover={{scale:1.1}} whileTap={{scale:0.95}}>See Demo</motion.button>
                 </motion.div>
                 </div>
             </div>
