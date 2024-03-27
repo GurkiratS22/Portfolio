@@ -100,5 +100,9 @@
         font-weight: bold;
         z-index: 0;
         user-select: none;
+
+        @include mobile{
+            bottom: -100px;
+        }
     }
 }

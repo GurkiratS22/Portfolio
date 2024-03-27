@@ -1,0 +1,59 @@
+@import "../../app.scss";
+
+.about{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    
+    .container {
+        flex: 1;
+        flex-direction: column;
+        max-width: 800px;
+        margin-left: 2vw;
+        margin-top: 15vh;
+    }
+      
+    .about-content {
+      
+        h2 {
+            font-size: 36px;
+            color: #333;
+        }
+      
+        p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+    }
+
+    .canvas{
+        flex: 1;
+        display: flex;
+        margin-top: 15vh;
+        width: auto;
+        height: 100%;
+        cursor: grab;
+    }
+
+    .imageContainer{
+        flex: 1;
+        display: flex;
+        width: auto;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .imageContainer::before {
+        display:block;
+        content:'';
+        position:absolute;
+        width:100%;
+        height:100%;
+        -moz-box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,1);
+        -webkit-box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,1);
+        box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,1);
+    }
+}
