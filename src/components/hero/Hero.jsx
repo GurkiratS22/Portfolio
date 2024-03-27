@@ -62,8 +62,8 @@ const Hero = () => {
                     <motion.h2 variants={textVariants}>GURKIRAT SINGH</motion.h2>
                     <motion.h1 variants={textVariants}>Web Developer</motion.h1>
                     <motion.div className="buttons" variants={buttonContainerVariants}>
-                        <a href="#Portfolio">
-                            <motion.button whileHover={{scale:1.1}} whileTap={{scale:0.95}} variants={textVariants}>See the Latest Works</motion.button>
+                        <a href="#About">
+                            <motion.button whileHover={{scale:1.1}} whileTap={{scale:0.95}} variants={textVariants}>About Me</motion.button>
                         </a>
                         <a href="#Contact">
                             <motion.button whileHover={{scale:1.1}} whileTap={{scale:0.95}} variants={textVariants}>Contact Me</motion.button>
