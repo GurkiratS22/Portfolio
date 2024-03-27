@@ -5,6 +5,10 @@
     width: 100%;
     margin: auto;
     display: flex;
+
+    @include mobile{
+        flex-direction: column;
+    }
     
     .container {
         flex: 1;
@@ -12,6 +16,11 @@
         max-width: 800px;
         margin-left: 2vw;
         margin-top: 15vh;
+
+        @include mobile{
+            margin: auto;
+            margin-top: 5vh;
+        }
     }
       
     .about-content {
@@ -19,12 +28,22 @@
         h2 {
             font-size: 36px;
             color: #333;
+
+            @include mobile{
+                text-align: center;
+            }
         }
       
         p {
             font-size: 18px;
             color: #666;
             margin-bottom: 20px;
+
+            @include mobile{
+                text-align: center;
+                font-size: 13px;
+                margin-bottom: 15px;
+            }
         }
     }
 
@@ -44,6 +63,10 @@
         height: 100%;
         position: relative;
         overflow: hidden;
+
+        @include mobile{
+            visibility: hidden;
+        }
     }
 
     .imageContainer::before {
