@@ -30,7 +30,7 @@ const sliderVariants = {
         x: 0,
     },
     animate: {
-        x: window.innerWidth<= 738 ? "-1950%" : "-325%",
+        x: window.innerWidth<= 738 ? "-1930%" : "-325%",
         transition: {
             repeat: Infinity,
             repeatType: "mirror",
@@ -69,7 +69,8 @@ const Hero = () => {
                             <motion.button whileHover={{scale:1.1}} whileTap={{scale:0.95}} variants={textVariants}>Contact Me</motion.button>
                         </a>
                     </motion.div>
-                    <motion.img variants={textVariants} animate="scrollbutton" src="/scroll.png" alt="" />
+                    <a href="#Services">
+                    <motion.img variants={textVariants} animate="scrollbutton" src="/scroll.png" alt="" /></a>
                 </motion.div>
             </div>
             <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">

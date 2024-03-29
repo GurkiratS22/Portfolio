@@ -1,9 +1,32 @@
-import Earth from "../earth/Earth";
 import "./about.scss";
+import { useRef } from "react";
+import {motion, useInView} from "framer-motion";
+
+const variants = {
+    initial: {
+        x: -500,
+        y: 100,
+        opacity: 0,
+    },
+    animate: {
+        x: 0,
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 1,
+            staggerChildren: 1.1,
+        },
+    },
+}
 
 const About = () => {
+    
+    const ref = useRef()
+
+    const isInView = useInView(ref, {margin:"-100px"})
+
     return (
-        <div className="about">
+        <motion.div className="about" variants={variants} initial="initial" ref={ref} animate={ window.innerWidth<= 738 ? "animate" : isInView && "animate"}>
             <div className="container">
                 <div className="about-content">
                     <h2>About Me</h2>
@@ -17,7 +40,7 @@ const About = () => {
             <div className="imageContainer">
                 <img src="./pic.jpg" alt=""/>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

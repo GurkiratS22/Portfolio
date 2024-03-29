@@ -72,7 +72,8 @@ const Contact = () => {
             <motion.form ref={formRef} onSubmit={sendEmail} initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:3, duration:1}}>
                 <input type="text" required placeholder="Name" name="from_name" />
                 <input type="email" required placeholder="Email" name="from_email" />
-                <textarea rows={8} placeholder="Message" name="message" />                    <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}>Submit</motion.button>
+                <textarea rows={8} placeholder="Message" name="message" />                    
+                <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}>Submit</motion.button>
                 {error && "Error"}
                 {success && "Success"}
             </motion.form>
