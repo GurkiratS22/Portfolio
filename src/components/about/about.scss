@@ -54,11 +54,11 @@
         p {
             font-size: 18px;
             color: white;
-            margin-bottom: 20px;
+            margin-bottom: 2vh;
 
             @include mobile{
                 text-align: center;
-                font-size: 15px;
+                font-size: 1.6vh;
             }
 
             @include tablet{
