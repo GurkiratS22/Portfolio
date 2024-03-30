@@ -9,6 +9,10 @@
     @include mobile{
         flex-direction: column;
     }
+
+    @include tablet{
+        flex-direction: column;
+    }
     
     .container {
         flex: 1;
@@ -18,8 +22,15 @@
         margin-top: 15vh;
 
         @include mobile{
-            margin: auto;
             margin-top: 5vh;
+            margin-left: 1vw;
+            margin-right: 1vw;
+        }
+
+        @include tablet{
+            margin-top: 10vw;
+            margin-left: 1vw;
+            margin-right: 1vw;
         }
     }
       
@@ -31,6 +42,12 @@
 
             @include mobile{
                 text-align: center;
+                margin-bottom: 1vh;
+            }
+
+            @include tablet{
+                text-align: center;
+                margin-bottom: 2vh;
             }
         }
       
@@ -41,8 +58,12 @@
 
             @include mobile{
                 text-align: center;
-                font-size: 13px;
-                margin-bottom: 15px;
+                font-size: 15px;
+            }
+
+            @include tablet{
+                text-align: center;
+                font-size: 20px;
             }
         }
     }
@@ -66,6 +87,10 @@
         margin-left: 5vw;
 
         @include mobile{
+            visibility: hidden;
+        }
+
+        @include tablet{
             visibility: hidden;
         }
     }

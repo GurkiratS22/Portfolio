@@ -31,12 +31,12 @@ section{
     }
 }
 @mixin tablet {
-    @media (max-width: 1024px) {
+    @media (min-width: 739px) and (max-width: 1024px) {
         @content;
     }
 }
 @mixin desktop {
-    @media (max-width: 1366px) {
+    @media (min-width: 1025px) and (max-width: 1366px) {
         @content;
     }
 }

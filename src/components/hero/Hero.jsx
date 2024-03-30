@@ -27,10 +27,10 @@ const textVariants = {
 
 const sliderVariants = {
     initial: {
-        x: 0,
+        x: 0
     },
     animate: {
-        x: window.innerWidth<= 738 ? "-1930%" : "-325%",
+        x: window.innerWidth <= 738 ? "-1920%" : (window.innerWidth >= 739 && window.innerWidth <= 1024 ? "-1070%" : "-325%"),
         transition: {
             repeat: Infinity,
             repeatType: "mirror",
