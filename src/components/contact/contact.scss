@@ -94,8 +94,12 @@
             }
 
             svg{
-                width: 80vw;
+                width: 100%;
                 height: auto;
+
+                @include mobile{
+                    width: 80vw;
+                }
             }
         }
         
