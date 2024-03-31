@@ -10,14 +10,12 @@
 
     @include mobile{
         width: 100%;
-        padding: 10px;
         flex-direction: column;
-        gap: 40px;
+        gap: 0px;
     }
 
     @include tablet{
         width: 100%;
-        padding: 10px;
         flex-direction: column;
         gap: 40px;
     }
@@ -29,10 +27,10 @@
         gap: 40px;
 
         @include mobile{
-            gap: 20px;
+            gap: 10px;
             text-align: center;
             align-items: center;
-            margin-top: 70px;
+            margin-top: 50px;
         }
 
         @include tablet{
@@ -48,6 +46,7 @@
 
             @include mobile{
                 font-size: 5vh;
+                line-height: 13vh;
             }
 
             @include tablet{
@@ -65,12 +64,12 @@
     }
 
     .formContainer{
-        flex: 1;
         position: relative;
+        flex: 1;
 
         @include mobile{
             width: 100%;
-            padding: 50px;
+            margin: 2vh;
         }
 
         @include tablet{
@@ -90,20 +89,25 @@
             }
 
             @include mobile{
-                margin-right: 10vw;
+                margin-left: 10vw;
+                margin-bottom: 4vh;
             }
 
             svg{
-                width: 100%;
+                width: 80vw;
                 height: auto;
             }
         }
         
         form{
-
+            flex: 1;
             display: flex;
             flex-direction: column;
             gap: 20px;
+
+            @include mobile{
+                gap: 0px;
+            }
             
             input, textarea{
                 padding: 20px;
@@ -113,7 +117,10 @@
                 border-radius: 5px;
 
                 @include mobile{
-                    padding: 10px;
+                    margin: 2vw;
+                    margin-left: 10vw;
+                    margin-right: 10vw;
+                    padding: 5px;
                 }
 
                 @include tablet{
@@ -130,6 +137,9 @@
 
                 @include mobile{
                     padding: 10px;
+                    margin: 2vw;
+                    margin-left: 10vw;
+                    margin-right: 10vw;
                 }
 
                 @include tablet{
@@ -146,6 +156,7 @@
 
         @include mobile{
             margin-left: 0vw;
+            margin-top: 97vh;
         }
 
         @include tablet{

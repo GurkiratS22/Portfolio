@@ -29,6 +29,7 @@ const About = () => {
         <motion.div className="about" variants={variants} initial="initial" ref={ref} animate={ window.innerWidth<= 738 ? "animate" : isInView && "animate"}>
             <div className="container">
                 <div className="about-content">
+                    <div className="text-background"></div>
                     <h2>About Me</h2>
                     <p>Welcome to my corner of the web! I'm Gurkirat, a passionate and dedicated web developer with a love for crafting seamless digital experiences. Armed with a diverse skill set and an insatiable curiosity for all things tech, I thrive on turning innovative ideas into tangible solutions.</p>                        <p>Driven by a blend of creativity and precision, I specialize in front-end development, where I leverage the latest tools and technologies to bring designs to life with pixel-perfect precision. Whether it's building intuitive user interfaces, optimizing website performance, or solving complex coding challenges, I approach each project with enthusiasm and a commitment to excellence.</p>
                     <p>With a background in Computer Information Systems and hands-on experience in programming, I've honed my abilities in languages like JavaScript, HTML, and CSS, alongside frameworks like React and Next.js. From concept to execution, I pride myself on delivering projects that not only meet but exceed expectations, prioritizing functionality, aesthetics, and user experience every step of the way.</p>

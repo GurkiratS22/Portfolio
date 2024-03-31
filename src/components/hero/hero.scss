@@ -22,7 +22,7 @@
             @include mobile{
                 height: 50%;
                 width: 100%;
-                gap: 20px;
+                gap: 10px;
                 align-items: center;
                 text-align: center;
             }
@@ -58,6 +58,9 @@
             }
 
             .buttons{
+                @include mobile{
+                    margin-left: 2vh;
+                }
                 button {
                     padding: 20px;
                     border: 1px solid white;
@@ -78,6 +81,7 @@
                 cursor: pointer;
                 z-index: 1;
                 position: relative;
+                margin-right: 2vw;
             }
 
             
