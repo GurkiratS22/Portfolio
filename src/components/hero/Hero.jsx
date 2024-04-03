@@ -1,6 +1,7 @@
 import "./hero.scss";
 import React from "react";
 import { motion } from "framer-motion";
+import Tech from "../tech/Tech";
 
 const textVariants = {
     initial: {
@@ -72,6 +73,9 @@ const Hero = () => {
                     <a href="#Services">
                     <motion.img variants={textVariants} animate="scrollbutton" src="/scroll.png" alt="" /></a>
                 </motion.div>
+            </div>
+            <div className="techContainer">
+            <Tech/>
             </div>
             <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
                 Front-End Developer

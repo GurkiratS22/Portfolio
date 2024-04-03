@@ -1,0 +1,18 @@
+@import "../../app.scss";
+
+.tech{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+    .icon{
+        width: 15vw;
+        height: 15vh;
+
+        @include mobile{
+            width: 10vw;
+            height: 10vh;
+        }
+    }
+}
