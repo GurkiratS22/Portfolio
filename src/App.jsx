@@ -1,4 +1,4 @@
-import "./app.scss"
+import "./styles/app.scss"
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero"; 
 import Parallax from "./components/parallax/Parallax";
@@ -13,7 +13,7 @@ const App = () => {
     <Cursor/>
     <section id="Homepage">
        <Navbar/>
-       <Hero/>     
+       <Hero/>    
     </section>
     <section id="Services"><Parallax type="services"/></section>
     <section id="About"><About/></section>
