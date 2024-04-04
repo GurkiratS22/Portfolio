@@ -14,6 +14,11 @@ import {
   threejs,
 } from "/assets";
 
+const isMobileDevice = () => {
+  return /Mobi|Android/i.test(navigator.userAgent);
+};
+
+// Define all technologies with their icons
 const technologies = [
   {
     name: "HTML 5",
@@ -35,10 +40,8 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
+  // Only include Redux Toolkit icon for desktop devices
+  ...(isMobileDevice() ? [] : [{ name: "Redux Toolkit", icon: redux }]),
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -47,26 +50,18 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
+  // Only include MongoDB icon for desktop devices
+  ...(isMobileDevice() ? [] : [{ name: "MongoDB", icon: mongodb }]),
   {
     name: "Three JS",
     icon: threejs,
   },
-  // {
-  //   name: "git",
-  //   icon: git,
-  // },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
+  // Only include Git icon for desktop devices
+  ...(isMobileDevice() ? [] : [{ name: "git", icon: git }]),
+  // Only include Figma icon for desktop devices
+  ...(isMobileDevice() ? [] : [{ name: "figma", icon: figma }]),
+  // Only include Docker icon for desktop devices
+  ...(isMobileDevice() ? [] : [{ name: "docker", icon: docker }]),
 ];
 
 export { technologies };
