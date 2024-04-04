@@ -50,7 +50,7 @@
             }
 
             @include tablet{
-                font-size: 72px;
+                font-size: 7vh;
             }
         }
 
@@ -58,7 +58,7 @@
             font-weight: 300;
 
             @include tablet {
-                font-size: 24px;
+                font-size: 3vh;
             }
         }
     }
@@ -74,7 +74,7 @@
 
         @include tablet{
             width: 100%;
-            padding: 50px;
+            margin: 3vh;
         }
 
         .phoneSvg{
@@ -84,7 +84,7 @@
             z-index: -1;
 
             @include tablet{
-                margin-left: 14vw;
+                margin-left: 22vw;
                 margin-bottom: 2vh;
             }
 
@@ -129,6 +129,9 @@
 
                 @include tablet{
                     padding: 10px;
+                    margin: 1vw;
+                    margin-left: 10vw;
+                    margin-right: 10vw;
                 }
             }
 
@@ -148,6 +151,9 @@
 
                 @include tablet{
                     padding: 10px;
+                    margin: 2vw;
+                    margin-left: 10vw;
+                    margin-right: 10vw;
                 }
             }
         }

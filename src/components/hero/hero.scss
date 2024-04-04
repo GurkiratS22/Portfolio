@@ -28,7 +28,7 @@
             }
 
             @include tablet{
-                height: 70%;
+                height: 50%;
                 width: 100%;
                 gap: 20px;
                 align-items: center;
@@ -102,6 +102,13 @@
 
         @include mobile{
             height: 50%;
+            width: 100%;
+            top: unset;
+            bottom: 0;
+        }
+
+        @include tablet{
+            height: 55%;
             width: 100%;
             top: unset;
             bottom: 0;

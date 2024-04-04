@@ -59,6 +59,8 @@
         border: none;
         cursor: pointer;
 
+        @include mobile{}
+
     }
 
 }

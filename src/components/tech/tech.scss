@@ -14,5 +14,10 @@
             width: 20vw;
             height: 10vh;
         }
+
+        @include tablet{
+            width: 24vw;
+            height: 12vh;
+        }
     }
 }
