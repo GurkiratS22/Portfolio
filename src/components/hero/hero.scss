@@ -39,10 +39,14 @@
                 font-size: 30px;
                 color: rebeccapurple;
                 letter-spacing: 10px;
+                position: relative;
+                z-index: 1;
             }
 
             h1{
                 font-size: 88px;
+                position: relative;
+                z-index: 1;
 
                 @include mobile{
                     font-size: 36px;
