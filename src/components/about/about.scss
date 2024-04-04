@@ -19,7 +19,7 @@
         flex-direction: column;
         max-width: 800px;
         margin-left: 2vw;
-        margin-top: 15vh;
+        margin-top: 10vh;
 
         @include mobile{
             margin-top: 3vh;
@@ -54,7 +54,7 @@
         }
 
         h2 {
-            font-size: 36px;
+            font-size: 3vw;
             color: white;
 
             @include mobile{
@@ -72,7 +72,7 @@
         }
       
         p {
-            font-size: 18px;
+            font-size: 1.1vw;
             color: rgb(255, 255, 255);
             margin-bottom: 2vh;
 

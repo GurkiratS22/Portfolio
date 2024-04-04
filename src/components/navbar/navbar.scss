@@ -11,6 +11,11 @@
         justify-content: space-between;
         height: 100%;
 
+        @include desktop{
+            margin-right: 4vw;
+            margin-left: 8vw;
+        }
+
         @include mobile{
             justify-content: flex-end;
             padding: 20px;
