@@ -7,7 +7,6 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Cursor from "./components/cursor/Cursor";
 import About from "./components/about/About";
-import Tech from "./components/tech/Tech";
 
 const App = () => {
   return <div>

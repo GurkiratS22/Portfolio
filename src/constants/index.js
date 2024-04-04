@@ -4,14 +4,14 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
   threejs,
+  sass,
+  mysql,
+  php,
+  vscode,
+  github
 } from "/assets";
 
 const isMobileDevice = () => {
@@ -21,12 +21,12 @@ const isMobileDevice = () => {
 // Define all technologies with their icons
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Sass",
+    icon: sass,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "MySQL",
+    icon: mysql,
   },
   {
     name: "JavaScript",
@@ -40,28 +40,28 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  // Only include Redux Toolkit icon for desktop devices
-  ...(isMobileDevice() ? [] : [{ name: "Redux Toolkit", icon: redux }]),
+  
+  ...(isMobileDevice() ? [] : [{ name: "HTML 5", icon: html }]),
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "PHP",
+    icon: php,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
-  // Only include MongoDB icon for desktop devices
-  ...(isMobileDevice() ? [] : [{ name: "MongoDB", icon: mongodb }]),
+  
+  ...(isMobileDevice() ? [] : [{ name: "CSS 3", icon: css }]),
   {
     name: "Three JS",
     icon: threejs,
   },
-  // Only include Git icon for desktop devices
-  ...(isMobileDevice() ? [] : [{ name: "git", icon: git }]),
-  // Only include Figma icon for desktop devices
-  ...(isMobileDevice() ? [] : [{ name: "figma", icon: figma }]),
-  // Only include Docker icon for desktop devices
-  ...(isMobileDevice() ? [] : [{ name: "docker", icon: docker }]),
+  
+  ...(isMobileDevice() ? [] : [{ name: "GitHub", icon: github }]),
+  
+  ...(isMobileDevice() ? [] : [{ name: "Tailwind CSS", icon: tailwind }]),
+  
+  ...(isMobileDevice() ? [] : [{ name: "VS Code", icon: vscode }]),
 ];
 
 export { technologies };
