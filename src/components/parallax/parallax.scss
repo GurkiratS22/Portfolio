@@ -54,14 +54,14 @@
         @include mobile{
             background-size: contain;
             background-repeat: no-repeat;
-            width: 200%;
-            height: 80%;
+            width: 180%;
+            height: 85%;
         }
 
         @include tablet{
             background-size: contain;
             background-repeat: no-repeat;
-            width: 210%;
+            width: 180%;
             height: 80%;
         }
     }
