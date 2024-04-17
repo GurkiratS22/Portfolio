@@ -10,12 +10,13 @@ const items = [
         description: "My project, named 'HungerEats', is a dynamic web platform designed to revolutionize the food delivery experience. Powered by the MERN (MongoDB, Express.js, React.js, Node.js) stack, HungerEats offers a seamless and intuitive interface for users to discover, order, and enjoy their favorite meals from a variety of local restaurants. With real-time updates, and secure payment processing, HungerEats ensures convenience and satisfaction for both customers and restaurant partners. Whether craving a quick snack or planning a gourmet feast, HungerEats promises to deliver delicious moments with every click.",
         link: "https://hungereats.onrender.com/",
     },
-    // {
-    //     id: 2,
-    //     title: "Next.js Blog",
-    //     img:"https://images.pexels.com/photos/19288164/pexels-photo-19288164/free-photo-of-direction.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-    //     description: "Something...",
-    // },
+    {
+        id: 2,
+        title: "Personal Blog",
+        img:"./Blog.png",
+        description: "This blog was created by Gurkirat Singh as a personal project to share his thoughts and ideas with the world. Powered by the MERN stack, Firebase, and Redux, Gurkirat's Blog offers a dynamic platform for users to comment, like, share, and explore captivating content effortlessly. With intuitive features, real-time updates, and seamless integration, this project redefines the blogging experience, empowering users to connect, inspire, and engage like never before.",
+        link: "https://blog-9cpw.onrender.com/"
+    },
     // {
     //     id: 3,
     //     title: "Vanilla JS App",
