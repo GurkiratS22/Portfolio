@@ -18,7 +18,7 @@ fetch('https://hungereats-backend.onrender.com/health')
   fetch('https://blog-9cpw.onrender.com/health')
   .then(response => {
     if (response.ok) {
-      console.log('Render backend is awake!');
+      console.log('Render is awake!');
     } else {
       console.error('Failed to wake up Render backend:', response.status);
     }
