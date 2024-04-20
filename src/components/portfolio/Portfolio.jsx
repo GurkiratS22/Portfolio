@@ -15,7 +15,7 @@ const items = [
         id: 2,
         title: "Personal Blog",
         img:"./Blog.png",
-        description: "This blog, created by Gurkirat Singh as a personal project, serves as a platform to share his thoughts and ideas with the world. Powered by the MERN stack, Firebase, and Redux, Gurkirat's Blog offers a dynamic platform for users to comment, like, share, and explore captivating content effortlessly. With intuitive features including search, filters, and pagination, along with real-time updates and seamless integration, this project redefines the blogging experience. Additionally, users can enjoy the option of switching between dark and light mode, providing a customizable and comfortable reading experience. It empowers users to connect, inspire, and engage like never before, making it easy to discover and interact with content that resonates with them. Moreover, there is an admin dashboard available to easily monitor and manage all posts, users, comments, etc., ensuring smooth operation and effective content management.",
+        description: "Gurkirat's Blog is a dynamic platform, powered by the MERN stack, Firebase, and Redux, offering users a seamless blogging experience. With intuitive features like search, filters, and pagination, along with dark and light mode options, users can effortlessly explore captivating content. Plus, an admin dashboard allows for easy monitoring and management of posts, users, and comments, ensuring smooth operation and effective content management.",
         link: "https://blog-9cpw.onrender.com/",
         link2: "https://github.com/GurkiratS22/blog",
     },
