@@ -3,6 +3,18 @@ import React from "react";
 import { motion } from "framer-motion";
 import Tech from "../tech/Tech";
 
+fetch('https://hungereats.onrender.com/health')
+  .then(response => {
+    if (response.ok) {
+      console.log('Render backend is awake!');
+    } else {
+      console.error('Failed to wake up Render backend:', response.status);
+    }
+  })
+  .catch(error => {
+    console.error('Error waking up Render backend:', error);
+  });
+
 const textVariants = {
     initial: {
         x: -500,
