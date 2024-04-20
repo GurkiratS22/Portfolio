@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Tech from "../tech/Tech";
 
-fetch('https://hungereats.onrender.com/health')
+fetch('https://hungereats-backend.onrender.com/health')
   .then(response => {
     if (response.ok) {
       console.log('Render backend is awake!');
