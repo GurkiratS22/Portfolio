@@ -103,7 +103,7 @@ const Hero = () => {
             <Tech/>
             </div>
             <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
-                Front-End Developer
+                Full-stack Developer
             </motion.div>
         </div>
     );
