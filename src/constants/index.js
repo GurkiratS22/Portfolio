@@ -11,7 +11,9 @@ import {
   mysql,
   php,
   vscode,
-  github
+  github,
+  mongodb,
+  redux
 } from "/assets";
 
 const isMobileDevice = () => {
@@ -21,8 +23,8 @@ const isMobileDevice = () => {
 // Define all technologies with their icons
 const technologies = [
   {
-    name: "Sass",
-    icon: sass,
+    name: "MongoDB",
+    icon: mongodb,
   },
   {
     name: "MySQL",
@@ -60,8 +62,12 @@ const technologies = [
   ...(isMobileDevice() ? [] : [{ name: "GitHub", icon: github }]),
   
   ...(isMobileDevice() ? [] : [{ name: "Tailwind CSS", icon: tailwind }]),
+
+  ...(isMobileDevice() ? [] : [{ name: "Sass", icon: sass }]),
   
   ...(isMobileDevice() ? [] : [{ name: "VS Code", icon: vscode }]),
+
+  ...(isMobileDevice() ? [] : [{ name: "Redux", icon: redux }]),
 ];
 
 export { technologies };

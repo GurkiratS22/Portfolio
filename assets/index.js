@@ -1,16 +1,18 @@
-import css from "./tech/css.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
+import css from "./tech/css.svg";
+import html from "./tech/html.svg";
+import javascript from "./tech/javascript.svg";
+import nodejs from "./tech/nodejs.svg";
+import reactjs from "./tech/react.svg";
+import tailwind from "./tech/tailwind.svg";
+import typescript from "./tech/typescript.svg";
 import threejs from "./tech/threejs.svg";
-import sass from "./tech/sass.png";
-import mysql from "./tech/mysql.png";
-import php from "./tech/php.png";
-import vscode from "./tech/vscode.png";
-import github from "./tech/github.png";
+import sass from "./tech/sass.svg";
+import mysql from "./tech/mysql.svg";
+import php from "./tech/php.svg";
+import vscode from "./tech/vscode.svg";
+import github from "./tech/github.svg";
+import mongodb from "./tech/mongodb.svg";
+import redux from "./tech/redux.svg";
 
 export {
     css,
@@ -25,5 +27,7 @@ export {
     mysql,
     php,
     vscode,
-    github
+    github,
+    mongodb,
+    redux
   };
