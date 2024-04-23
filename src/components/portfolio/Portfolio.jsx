@@ -19,12 +19,14 @@ const items = [
         link: "https://blog-9cpw.onrender.com/",
         link2: "https://github.com/GurkiratS22/blog",
     },
-    // {
-    //     id: 3,
-    //     title: "Vanilla JS App",
-    //     img:"https://images.pexels.com/photos/6534399/pexels-photo-6534399.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-    //     description: "Something...",
-    // },
+    {
+        id: 3,
+        title: "Voom",
+        img:"./Voom.png",
+        description: "Next.js and TypeScript power my video conferencing platform Voom, providing seamless meetings with real-time controls, scheduling, and recording. Authenticated with Clerk for security, my responsive design ensures a smooth experience across devices.",
+        link: "https://voom-three.vercel.app/",
+        link2: "https://github.com/GurkiratS22/voom",
+    },
     // {
     //     id: 4,
     //     title: "Music App",
